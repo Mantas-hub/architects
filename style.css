@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    width:100%;
+    height: 600px;
+    background-image: url(foto/1foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    font-family: Verdana;
+    padding: 15px;
+}
+.logo:hover{
+    background-color: grey; 
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    box-shadow: 2px 5px 5px black;
+    letter-spacing: 4px;
+}
+ul{
+    width: 100%;
+    height: 60px;
+    text-align: right;
+}
+li{
+    width: 150px;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+li:hover{
+   background-color: grey;  
+}
+a{
+    color:black;
+    font-family:Verdana;
+}
+
+h1{
+    width: auto;
+    margin:0 auto;
+    text-align: center;
+    margin-top:200px;
+    color:white;
+}
+.super{
+    padding: 10px;
+    background-color: lightgrey;
+    color:black;
+}
+main{
+    width: 100%;
+    height:auto;
+}
+h2{
+   margin: 60px 20px 20px 60px;
+   font-family: "Open Sans", sans-serif;
+}
+.galerija{
+    width: 100%;
+    height:auto;
+    text-align: center;
+}
+.galerija div{
+    width: 250px;
+    height:200px;
+    display: inline-block;
+    margin: 20px;
+}
+h3{
+    text-align: center;
+    text-align: left;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    width: 180px;
+}
+.foto1{
+    background-image: url(foto/summer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto2{
+    background-image: url(foto/brick.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto3{
+    background-image: url(foto/renovated.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto4{
+    background-image: url(foto/barn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto5{
+    background-image: url(foto/summer2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto6{
+    background-image: url(foto/brick2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto7{
+    background-image: url(foto/renovated2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto8{
+    background-image: url(foto/barn2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    text-align: center;
+}
+.about div{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin:20px;
+}
+.about div > div{
+    width: 250px;
+    height: 200px;
+    margin:0;
+}
+.foto9{
+    background-image: url(foto/profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto10{
+    background-image: url(foto/profile1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto11{
+    background-image: url(foto/profile3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto12{
+    background-image: url(foto/profile4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about h2{
+    margin:0;
+    text-align: left;
+}
+.about h4{
+    margin: 20px 5px;
+    text-align: left;
+    color:gray;
+    font-weight: 100;
+}
+.about p{
+    text-align: justify;
+    width: 95%;
+    margin:20px auto;
+}
+.about a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-top: 8px;
+    background-color: #f1f1f1;
+    
+}
+.about a:hover{
+    background-color: lightgray;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+footer p{
+    padding-top:50px;
+    color:#fff;
+}
+
+
+
+
+
